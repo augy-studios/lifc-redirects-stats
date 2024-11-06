@@ -1,0 +1,267 @@
+/* Import Google font - Jua */
+@import url("https://fonts.googleapis.com/css2?family=Jua:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Jua", sans-serif;
+
+  /* Chrome and Opera */
+  user-select: none;
+
+  /* Safari */
+  -webkit-user-select: none;
+
+  /* Konqueror HTML */
+  -khtml-user-select: none;
+
+  /* Firefox */
+  -moz-user-select: none;
+
+  /* Internet Explorer/Edge */
+  -ms-user-select: none;
+
+  transition: 0.3s;
+}
+
+::selection {
+  color: #fff;
+  background: #6f6;
+}
+
+:link {
+    color: #6f6;
+}
+
+:visited {
+    color: #ccf;
+}
+
+body {
+  text-align: center;
+  background-color: #262626;
+}
+
+.main-title {
+  color: #555;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.main-title a {
+  cursor: pointer;
+}
+
+.sub-title {
+  font-size: 28px;
+  color: #3f3;
+}
+
+.risk-alert {
+  font-size: 14px;
+  color: rgba(150, 193, 150, 0.825);
+}
+
+footer {
+  font-size: 14px;
+  color: #888;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+  padding-top: 10px;
+}
+
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+#search-container {
+  margin: 1em 0;
+}
+
+#search-container input {
+  color: #fff;
+  background-color: transparent;
+  width: 40%;
+  border-bottom: 2px solid #ccf;
+  padding: 1em 0.3em;
+  transition: 0.3s;
+}
+
+#search-container input:focus {
+  border-bottom-color: #6f6;
+}
+
+#search-container button {
+  font-weight: 700;
+  cursor: pointer;
+  border: 2px solid #6f6;
+  padding: 1em 2em;
+  margin-left: 1em;
+  background-color: #00000000;
+  color: #6f6;
+  border-radius: 5px;
+  margin-top: 1em;
+  transition: 0.3s;
+}
+
+#search-container button:hover {
+  background-color: #6f6;
+  color: #000;
+}
+
+.active {
+  background-color: #6f6;
+  color: #000;
+  font-weight: 900;
+}
+
+#shortLinks {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto;
+  grid-column-gap: 1.5em;
+  padding: 2em 0;
+}
+
+.card {
+  text-align: start;
+  cursor: pointer;
+  background-color: #00000000;
+  width: 50em;
+  max-width: 50em;
+  margin-top: 1em;
+  padding: 1em;
+  border: 5px solid #ccf;
+  border-radius: 5px;
+  box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  border-color: #66f;
+}
+
+/* img {
+  max-width: 100%;
+  object-fit: contain;
+  height: 10em;
+} */
+
+.container {
+  color: #fff;
+}
+
+.container h3 {
+  color: #6f6;
+  font-weight: 900;
+}
+
+.hide {
+  display: none;
+}
+
+#loader {
+  display: block;
+  height: 30vh;
+  /* width: 50vw; */
+  overflow: hidden;
+  background-color: #00000000;
+  position: relative;
+  justify-content: center;
+  padding: 2em 0;
+}
+
+#loader>div {
+  height: 100px;
+  width: 100px;
+  border: 15px solid #444;
+  border-top-color: #6f6;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  animation: spin 1.5s infinite linear;
+}
+
+.shortLink-redirect, .shortLink-link {
+  overflow-wrap: anywhere;
+}
+
+.shortLink-copied, .shortlink-new {
+  color: #f99;
+}
+
+.shortLink-copied.copy-done {
+  color: #9f9;
+}
+
+.card:has(.copy-done) {
+  border-color: #6f6;
+}
+
+@keyframes spin {
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .card {
+    width: 45em;
+    max-width: 45em;
+    margin-top: 1em;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .card {
+    width: 40em;
+    max-width: 40em;
+    margin-top: 1em;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  /* img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 5em;
+  } */
+
+  .card {
+    width: 30em;
+    max-width: 30em;
+    margin-top: 1em;
+  }
+
+  #shortLinks {
+    grid-template-columns: auto;
+    grid-column-gap: 1em;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .card {
+    width: 20em;
+    max-width: 20em;
+    margin-top: 1em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card {
+    width: 15em;
+    max-width: 15em;
+    margin-top: 1em;
+  }
+}
