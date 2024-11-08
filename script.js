@@ -114,6 +114,11 @@ async function loadRedirects() {
 
   for (let i of redirects) {
 
+    // ignore vercel.json short link
+    if (i.source == '/vercel.json') {
+      continue;
+    }
+
     //Create Card
     let card = document.createElement("div")
 
