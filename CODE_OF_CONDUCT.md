@@ -59,13 +59,13 @@ If a community member engages in unacceptable behavior, the community organizers
 
 If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer as soon as possible. admin@littleislandfur.com.
 
-[Reporting guidelines](https://www.littleislandfur.com/2024/code-of-conduct/)
+[Reporting guidelines](https://www.littleislandfur.com/2025/code-of-conduct/)
 
 Additionally, community organizers are available to help community members engage with local law enforcement or to otherwise help those experiencing unacceptable behavior feel safe. In the context of in-person events, organizers will also provide escorts as desired by the person experiencing distress.
 
 ## 8. Addressing Grievances
 
-If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify Little Island Furcon with a concise description of your grievance. Your grievance will be handled in accordance with our existing governing policies. [Policy](https://www.littleislandfur.com/2024/privacy-policy/)
+If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify Little Island Furcon with a concise description of your grievance. Your grievance will be handled in accordance with our existing governing policies. [Policy](https://www.littleislandfur.com/2025/privacy-policy/)
 
 Find out more about us here: https://www.littleislandfur.com
 
